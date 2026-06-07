@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: #fffaf3;
+  color: #333;
+}
+header {
+  background: #d35400;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.hero {
+  height: 80vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/hero-food.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero h2 {
+  font-size: 3rem;
+}
+.hero p {
+  margin: 15px 0;
+}
+.btn {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 60px 10%;
+  text-align: center;
+}
+.products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0.1);
+}
+footer {
+  background: #d35400;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+}
