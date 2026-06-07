@@ -26,7 +26,7 @@ nav a {
   height: 80vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/hero-food.jpg");
+    url("hero-food.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
